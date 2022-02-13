@@ -1,6 +1,6 @@
 # Material do curso Java Intermediário - loiane.training
 
-## Código e meus comentários de aula
+## Código, exercícios e meus comentários de aula
 
 ### Enumeradores (Enum)
 
@@ -26,4 +26,20 @@ Exercício - Calculadora com Enum
 * Sobescreva o método toString que retorne somente o símbolo da operação;
 * Implemente um método abstrato com a seguinte assinatura double executarOperacao (double x, double y). Cada opção do enum deve implementar esse método realizando a operação de acordo com sua descrição;
 * Escreva um método main para teste que realize todas as operações do enum. Dica: você pode usar o método values para iterar o enum e executar todas as operações. 
-###A
+
+###Elementos básicos da linguagem Java
+
+Aula 57 - Wrappers: classes de tipos primitivos
+
+Aula 58 - Autoboxing e auto-unboxing
+
+Aula 59 - Importação estática (static import)
+
+Aula 60 - Escopo de variáveis
+
+Aula 61 - Passagem de parâmetros por valor e referência
+
+* Tipos primitivos: passagem por valor
+* Tipos classe, enum, array: passagem por referência
+
+Aula 62 - 
