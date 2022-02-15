@@ -24,6 +24,5 @@ public class MinhaThreadSoma implements Runnable {
         System.out.println("Resultado da soma para thread " + this.nome + " é: " + soma);
 
         System.out.println(this.nome + " terminada");
-
     }
 }

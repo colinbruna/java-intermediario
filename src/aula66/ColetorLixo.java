@@ -11,7 +11,6 @@ public class ColetorLixo {
         Runtime runtime = Runtime.getRuntime(); //singleton
 
         System.out.println((runtime.totalMemory() - runtime.freeMemory()) / MB); //total de memória - memória que está livre
-
     }
 
     public static void main(String[] args) {

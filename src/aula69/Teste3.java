@@ -21,7 +21,6 @@ public class Teste3 {
 			e.printStackTrace();
 		}*/
 
-
         t2.start();
 
 		/*try {
@@ -38,7 +37,6 @@ public class Teste3 {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
         System.out.println("Programa finalizado");
     }
 }

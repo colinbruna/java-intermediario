@@ -9,7 +9,7 @@ Aula 53 - Enumeradores (Enum)
 Aula 54 - Enum como classe (construtor e métodos)
 
 * Enums extends a classe java.lang.Enum
-* Podem ser comparadas usando ==
+* Podem ser comparadas a usar ==
 * Não podem ser instanciadas com new
 * Podem implementar interfaces
 * Pode ser declarado separadamente ou dentro da classe
@@ -25,7 +25,7 @@ Exercício - Calculadora com Enum
 * O enum deve ter um construtor que receba o símbolo da operação (+,-,*,/);
 * Sobescreva o método toString que retorne somente o símbolo da operação;
 * Implemente um método abstrato com a seguinte assinatura double executarOperacao (double x, double y). Cada opção do enum deve implementar esse método realizando a operação de acordo com sua descrição;
-* Escreva um método main para teste que realize todas as operações do enum. Dica: você pode usar o método values para iterar o enum e executar todas as operações. 
+* Escreva um método main para teste que realize todas as operações do enum. Dica: pode usar o método values para iterar o enum e executar todas as operações. 
 
 ###Elementos básicos da linguagem Java
 
@@ -72,17 +72,21 @@ Aula 67 - Criando Threads + métodos start, run e sleep
     * run: vai deixar a Thread em execução;
     * sleep: vai colocar a Thread para dormir por alguns milissegundos.
 
-Aula 68 - Threads: Interface Runnable
+Aula 68 - Interface Runnable
 
 Aula 69 - Criando várias Threads + métodos isAlive e join
 
-Aula 70 - Threads: Definindo prioridades
+Aula 70 - Definindo prioridades
 
-Aula 71 - Threads: métodos e blocos sincronizados (synchronized)
+Aula 71 - Métodos e blocos sincronizados (synchronized)
 * Sincronização é o ato de coordenar as atividades de duas ou mais threads, quando, por exemplo, precisam acessar um recurso compartilhado, e somente uma thread pode usar o recurso por vez.
-* No Java usamos a palavra chave synchronized em métodos (assinatura) ou em um bloco de código.
+* No Java usamos a palavra chave synchronized em métodos (assinatura) ou num bloco de código.
 
-Aula 72 - Threads: notify, wait e notifyAll
+Aula 72 - Notify, wait e notifyAll
+* Ambiente: Uma thread A está sendo executada dentro de um método sincronizado e precisa de acesso a um recurso R que no momento está indisponível. Se a thread A ficar esperando por R, irá bloquear o objeto impedindo que outras threads acessem o mesmo. Nesse caso a melhor solução para não causar problemas é liberar temporariamente o controle do objeto permitindo que outra thread seja executada.
 
+Aula 73 - Resume, suspend e stop
 
+Aula 74 - Deadlocks
 
+Exercício - Crie um semáforo (sinal de trânsito) usando Threads. O semáforo deve ficar verde por x segundos, depois brevemente amarelo e seguido de y segundos na cor vermelha.

@@ -27,7 +27,6 @@ public class PassagemValorParametro {
         System.out.println(valor);
     }
 
-
     private static void testePassagemValorReferencia(int valor, Contato contato) {
 
         int novoValor = valor + 10;

@@ -14,5 +14,4 @@ public class Formulario {
 
     private String nome;
     private Genero genero;
-
 }

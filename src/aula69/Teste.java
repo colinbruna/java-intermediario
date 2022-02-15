@@ -24,7 +24,6 @@ public class Teste {
                 e.printStackTrace();
             }
         }
-
         System.out.println("Programa finalizado");
     }
 }
