@@ -56,3 +56,33 @@ Aula 65 - Annotations: recurso que permite embutir informações complementares 
 
 Aula 66 - Garbage Collector (Coletor de Lixo)
 
+### Programação multitarefas: Threads
+
+Aula 67 - Criando Threads + métodos start, run e sleep
+* Existem dois tipos de multitarefas: Processos e Threads
+    * Processo é um programa que está sendo executado
+    * Thread é a menor unidade de código que pode ser executada. Dentro de um processo (programa) pode ter várias Threads, ou seja, dentro de um programa pode-se executar duas ou mais tarefas ao mesmo tempo.
+* Vantagens de usar Threads em programas:
+    * Programas mais eficientes
+* Maneiras de criar uma Thread:
+    * Extender a classe Thread;
+    * Implementar a interface Runnable.
+* Métodos mais importantes no ciclo de vida de uma Thread
+    * start: inicia a Thread e deixa ela pronta para execução;
+    * run: vai deixar a Thread em execução;
+    * sleep: vai colocar a Thread para dormir por alguns milissegundos.
+
+Aula 68 - Threads: Interface Runnable
+
+Aula 69 - Criando várias Threads + métodos isAlive e join
+
+Aula 70 - Threads: Definindo prioridades
+
+Aula 71 - Threads: métodos e blocos sincronizados (synchronized)
+* Sincronização é o ato de coordenar as atividades de duas ou mais threads, quando, por exemplo, precisam acessar um recurso compartilhado, e somente uma thread pode usar o recurso por vez.
+* No Java usamos a palavra chave synchronized em métodos (assinatura) ou em um bloco de código.
+
+Aula 72 - Threads: notify, wait e notifyAll
+
+
+
