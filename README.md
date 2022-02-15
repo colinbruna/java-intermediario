@@ -42,4 +42,17 @@ Aula 61 - Passagem de parâmetros por valor e referência
 * Tipos primitivos: passagem por valor
 * Tipos classe, enum, array: passagem por referência
 
-Aula 62 - 
+Aula 62 - Varargs: é um facilitador, ao invés de criar um array ou lista e colocar os valores dentro dele para depois chamar o método, o mesmo pode ser chamado diretamente passando os n valores e os parâmetros enviados são automaticamente adicionados em um array do mesmo tipo do varargs.
+
+Aula 63 - printf
+
+Aula 64 - Classes aninhadas: internas, locais e anonimas.
+
+Aula 65 - Annotations: recurso que permite embutir informações complementares no código fonte
+* Informações para o compilador
+* Runtime (tempo de execução)
+* Compile ou Deploy-time (tempo de compilação ou deploy-web)
+* As anotações são precedidas de um @ Ex.: @override
+
+Aula 66 - Garbage Collector (Coletor de Lixo)
+
