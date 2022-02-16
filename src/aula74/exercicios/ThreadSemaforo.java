@@ -2,12 +2,12 @@ package aula74.exercicios;
 
 public class ThreadSemaforo implements Runnable {
 
-    private Teste.CorSemafaro corSemafaro;
+    private CorSemaforoEnum corSemafaro;
     private boolean continuar;
     private boolean mudancaCor;
 
     public ThreadSemaforo() {
-        this.corSemafaro = Teste.CorSemafaro.VERDE;
+        this.corSemafaro = CorSemaforoEnum.VERDE;
 
         this.continuar = false;
         this.mudancaCor = false;
@@ -30,13 +30,13 @@ public class ThreadSemaforo implements Runnable {
     private synchronized void mudancaCor() {
         switch (this.corSemafaro) {
             case VERDE:
-                this.corSemafaro = Teste.CorSemafaro.AMARELO;
+                this.corSemafaro = CorSemaforoEnum.AMARELO;
                 break;
             case AMARELO:
-                this.corSemafaro = Teste.CorSemafaro.VERMELHO;
+                this.corSemafaro = CorSemaforoEnum.VERMELHO;
                 break;
             case VERMELHO:
-                this.corSemafaro = Teste.CorSemafaro.VERDE;
+                this.corSemafaro = CorSemaforoEnum.VERDE;
                 break;
             default:
                 break;
@@ -60,7 +60,7 @@ public class ThreadSemaforo implements Runnable {
         this.continuar = true;
     }
 
-    public Teste.CorSemafaro getCorSemafaro() {
+    public CorSemaforoEnum getCorSemafaro() {
         return corSemafaro;
     }
 }
