@@ -107,6 +107,58 @@ As Strings em Java são IMUTÁVEIS, ou seja, o seu valor NÃO muda. Quando conta
 
 Aula 77 - Extraindo chars (charAt, getChars, getBytes, toCharArray)
 
-O método charAt é o mais utilizado no dia-a-dia.
+*****O método charAt é o mais utilizado no dia-a-dia.
 
-Aula 78 - 
+Aula 78 - Comparação de Strings utilizando: equalsIgnoreCase, regionMatches, startsWith, endsWith, compareTo.
+
+* compareTo é muito usado quando trabalhamos com coleções de objetos e queremos fazer uma ordenação.
+
+Aula 79 - Buscas utilizando os métodos: indexOf, lastIndexOf, contains.
+
+
+Aula 80 - Modificando uma String utilizando substring, concat, replace, trim. 
+
+*****Métodos mais utilizados ao se trabalhar com String!
+
+Aula 81 - Modificando letras maiúsculas/minúsculas utilizando: toLowerCase, toUpperCase.
+
+Aula82 - Juntando e separando String utilizando: join e split.
+
+Aula 83 - Concatenação com StringBuilder e StringBuffer.
+
+Aula 84 - Classe String Tokenizer
+
+###Classes Utilitárias
+
+Aula 85 - 
+
+Aula 86 - 
+
+Aula 87 - 
+
+Aula 88 - 
+
+Aula 89 - 
+
+Aula 90 - 
+
+Aula 91 - 
+
+Aula 92 - 
+
+Aula 93 - 
+
+Aula 94 - 
+
+Aula 95 - 
+
+Aula 96 - 
+
+Aula 97 - 
+
+Aula 98 -
+
+Aula 99 - 
+
+Aula 100 - 
+
