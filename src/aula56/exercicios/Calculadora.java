@@ -7,7 +7,7 @@ public class Calculadora {
         double x = 10.0;
         double y = 5.0;
 
-        for (Operacao op : Operacao.values()) {
+        for (OperacaoEnum op : OperacaoEnum.values()) {
             System.out.print(x + " ");
             System.out.print(op.toString() + " ");
             System.out.print(y + " = ");

@@ -2,24 +2,24 @@ package aula56;
 
 public class Pessoa {
 
-    private TipoDocumento tipoDocumento;
+    private TipoDocumentoEnum tipoDocumento;
     private String numeroDocumento;
 
     public Pessoa() {
         super();
     }
 
-    public Pessoa(TipoDocumento tipoDocumento, String numeroDocumento) {
+    public Pessoa(TipoDocumentoEnum tipoDocumento, String numeroDocumento) {
         super();
         this.tipoDocumento = tipoDocumento;
         this.numeroDocumento = numeroDocumento;
     }
 
-    public TipoDocumento getTipoDocumento() {
+    public TipoDocumentoEnum getTipoDocumento() {
         return tipoDocumento;
     }
 
-    public void setTipoDocumento(TipoDocumento tipoDocumento) {
+    public void setTipoDocumento(TipoDocumentoEnum tipoDocumento) {
         this.tipoDocumento = tipoDocumento;
     }
 

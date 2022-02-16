@@ -5,13 +5,13 @@ public class Data {
     private int dia;
     private int mes;
     private int ano;
-    private DiaSemana diaSemana;
+    private DiaSemanaEnum diaSemana;
 
     public Data() {
         super();
     }
 
-    public Data(int dia, int mes, int ano, DiaSemana diaSemana) {
+    public Data(int dia, int mes, int ano, DiaSemanaEnum diaSemana) {
         super();
         this.dia = dia;
         this.mes = mes;
@@ -43,11 +43,11 @@ public class Data {
         this.ano = ano;
     }
 
-    public DiaSemana getDiaSemana() {
+    public DiaSemanaEnum getDiaSemana() {
         return diaSemana;
     }
 
-    public void setDiaSemana(DiaSemana diaSemana) {
+    public void setDiaSemana(DiaSemanaEnum diaSemana) {
         this.diaSemana = diaSemana;
     }
 

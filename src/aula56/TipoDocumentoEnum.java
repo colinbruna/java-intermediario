@@ -1,6 +1,6 @@
 package aula56;
 
-public enum TipoDocumento {
+public enum TipoDocumentoEnum {
 
     CPF {
         @Override

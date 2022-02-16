@@ -9,12 +9,12 @@ public class TesteDocumento {
         }*/
 
         Pessoa pf = new Pessoa();
-        pf.setTipoDocumento(Enum.valueOf(TipoDocumento.class, "CPF"));
+        pf.setTipoDocumento(Enum.valueOf(TipoDocumentoEnum.class, "CPF"));
         pf.setNumeroDocumento(pf.getTipoDocumento().geraNumeroTeste());
         System.out.println(pf);
 
         Pessoa pj = new Pessoa();
-        pj.setTipoDocumento(Enum.valueOf(TipoDocumento.class, "CNPJ"));
+        pj.setTipoDocumento(Enum.valueOf(TipoDocumentoEnum.class, "CNPJ"));
         pj.setNumeroDocumento(pj.getTipoDocumento().geraNumeroTeste());
         System.out.println(pj);
     }

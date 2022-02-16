@@ -59,13 +59,13 @@ public class Teste {
 
     private static void usandoEnum() {
 
-        DiaSemana segunda = DiaSemana.SEGUNDA;
-        DiaSemana terca = DiaSemana.TERCA;
-        DiaSemana quarta = DiaSemana.QUARTA;
-        DiaSemana quinta = DiaSemana.QUINTA;
-        DiaSemana sexta = DiaSemana.SEXTA;
-        DiaSemana sabado = DiaSemana.SABADO;
-        DiaSemana domingo = DiaSemana.DOMINGO;
+        DiaSemanaEnum segunda = DiaSemanaEnum.SEGUNDA;
+        DiaSemanaEnum terca = DiaSemanaEnum.TERCA;
+        DiaSemanaEnum quarta = DiaSemanaEnum.QUARTA;
+        DiaSemanaEnum quinta = DiaSemanaEnum.QUINTA;
+        DiaSemanaEnum sexta = DiaSemanaEnum.SEXTA;
+        DiaSemanaEnum sabado = DiaSemanaEnum.SABADO;
+        DiaSemanaEnum domingo = DiaSemanaEnum.DOMINGO;
 
         System.out.println("Teste utilizando enum no Java");
         imprimeDiaSemana(segunda);
@@ -77,7 +77,7 @@ public class Teste {
         imprimeDiaSemana(domingo);
     }
 
-    private static void imprimeDiaSemana(DiaSemana dia) {
+    private static void imprimeDiaSemana(DiaSemanaEnum dia) {
         switch (dia) {
             case SEGUNDA:
                 System.out.println("Segunda-feira");

@@ -1,6 +1,6 @@
 package aula56.exercicios;
 
-public enum Operacao {
+public enum OperacaoEnum {
 
     SOMAR("+") {
         @Override
@@ -26,7 +26,7 @@ public enum Operacao {
 
     private String simbolo;
 
-    Operacao(String simbolo) {
+    OperacaoEnum(String simbolo) {
         this.simbolo = simbolo;
     }
 

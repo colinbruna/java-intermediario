@@ -80,7 +80,7 @@ Aula 70 - Definindo prioridades
 
 Aula 71 - Métodos e blocos sincronizados (synchronized)
 * Sincronização é o ato de coordenar as atividades de duas ou mais threads, quando, por exemplo, precisam acessar um recurso compartilhado, e somente uma thread pode usar o recurso por vez.
-* No Java usamos a palavra chave synchronized em métodos (assinatura) ou num bloco de código.
+* No Java é usada a palavra-chave synchronized em métodos (assinatura) ou num bloco de código.
 
 Aula 72 - Notify, wait e notifyAll
 * Ambiente: Uma thread A está sendo executada dentro de um método sincronizado e precisa de acesso a um recurso R que no momento está indisponível. Se a thread A ficar esperando por R, irá bloquear o objeto impedindo que outras threads acessem o mesmo. Nesse caso a melhor solução para não causar problemas é liberar temporariamente o controle do objeto permitindo que outra thread seja executada.
@@ -90,3 +90,23 @@ Aula 73 - Resume, suspend e stop
 Aula 74 - Deadlocks
 
 Exercício - Crie um semáforo (sinal de trânsito) usando Threads. O semáforo deve ficar verde por x segundos, depois brevemente amarelo e seguido de y segundos na cor vermelha.
+
+### Trabalhando com Strings
+
+Aula 75 - Construtores
+
+* O ASCII é um código numérico que representa os caracteres, usando uma escala decimal de 0 a 127. Esses números decimais são então convertidos pelo computador para binários e ele processa o comando. Sendo assim, cada uma das letras que você digitar vai corresponder a um desses códigos.
+
+String java = new String("Java"); --> quando usamos o operador new é criada uma referência de memória;
+
+String java2 = "Java"; == String java3 = "Java"; --> não cria referência de memória, então essas duas Strings criadas através de atribuição simples terão o mesmo espaço na memória.
+
+Aula 76 - Concatenação
+
+As Strings em Java são IMUTÁVEIS, ou seja, o seu valor NÃO muda. Quando contatenamos uma String com outra, não mudaremos o valor dela e sim criaremos uma nova String que faz com que a referência dessa variável aponte para uma nova. 
+
+Aula 77 - Extraindo chars (charAt, getChars, getBytes, toCharArray)
+
+O método charAt é o mais utilizado no dia-a-dia.
+
+Aula 78 - 
