@@ -4,20 +4,16 @@
 
 ### Enumeradores (Enum)
 
-Aula 53 - Enumeradores (Enum)
-
-Aula 54 - Enum como classe (construtor e métodos)
-
+Aula 53 - Enumeradores (Enum)   
+Aula 54 - Enum como classe (construtor e métodos)   
 * Enums extends a classe java.lang.Enum
 * Podem ser comparadas a usar ==
 * Não podem ser instanciadas com new
 * Podem implementar interfaces
 * Pode ser declarado separadamente ou dentro da classe
 
-Aula 55 - Enum: métodos value e valueof
-
-Aula 56 - Enum: métodos abstratos
-
+Aula 55 - Enum: métodos value e valueof   
+Aula 56 - Enum: métodos abstratos   
 * Os métodos abstratos podem ser através de uma interface ou também podem ser declarados dentro do próprio enum
 
 Exercício - Calculadora com Enum
@@ -29,26 +25,18 @@ Exercício - Calculadora com Enum
 
 ###Elementos básicos da linguagem Java
 
-Aula 57 - Wrappers: classes de tipos primitivos
-
-Aula 58 - Autoboxing e auto-unboxing
-
-Aula 59 - Importação estática (static import)
-
-Aula 60 - Escopo de variáveis
-
+Aula 57 - Wrappers: classes de tipos primitivos    
+Aula 58 - Autoboxing e auto-unboxing    
+Aula 59 - Importação estática (static import)     
+Aula 60 - Escopo de variáveis    
 Aula 61 - Passagem de parâmetros por valor e referência
-
 * Tipos primitivos: passagem por valor
 * Tipos classe, enum, array: passagem por referência
 
-Aula 62 - Varargs: é um facilitador, ao invés de criar um array ou lista e colocar os valores dentro dele para depois chamar o método, o mesmo pode ser chamado diretamente passando os n valores e os parâmetros enviados são automaticamente adicionados em um array do mesmo tipo do varargs.
-
-Aula 63 - printf
-
-Aula 64 - Classes aninhadas: internas, locais e anonimas.
-
-Aula 65 - Annotations: recurso que permite embutir informações complementares no código fonte
+Aula 62 - Varargs: é um facilitador, ao invés de criar um array ou lista e colocar os valores dentro dele para depois chamar o método, o mesmo pode ser chamado diretamente passando os n valores e os parâmetros enviados são automaticamente adicionados em um array do mesmo tipo do varargs.   
+Aula 63 - printf   
+Aula 64 - Classes aninhadas: internas, locais e anonimas.    
+Aula 65 - Annotations: recurso que permite embutir informações complementares no código fonte   
 * Informações para o compilador
 * Runtime (tempo de execução)
 * Compile ou Deploy-time (tempo de compilação ou deploy-web)
@@ -72,21 +60,17 @@ Aula 67 - Criando Threads + métodos start, run e sleep
     * run: vai deixar a Thread em execução;
     * sleep: vai colocar a Thread para dormir por alguns milissegundos.
 
-Aula 68 - Interface Runnable
-
-Aula 69 - Criando várias Threads + métodos isAlive e join
-
-Aula 70 - Definindo prioridades
-
-Aula 71 - Métodos e blocos sincronizados (synchronized)
+Aula 68 - Interface Runnable   
+Aula 69 - Criando várias Threads + métodos isAlive e join   
+Aula 70 - Definindo prioridades   
+Aula 71 - Métodos e blocos sincronizados (synchronized)    
 * Sincronização é o ato de coordenar as atividades de duas ou mais threads, quando, por exemplo, precisam acessar um recurso compartilhado, e somente uma thread pode usar o recurso por vez.
 * No Java é usada a palavra-chave synchronized em métodos (assinatura) ou num bloco de código.
 
 Aula 72 - Notify, wait e notifyAll
 * Ambiente: Uma thread A está sendo executada dentro de um método sincronizado e precisa de acesso a um recurso R que no momento está indisponível. Se a thread A ficar esperando por R, irá bloquear o objeto impedindo que outras threads acessem o mesmo. Nesse caso a melhor solução para não causar problemas é liberar temporariamente o controle do objeto permitindo que outra thread seja executada.
 
-Aula 73 - Resume, suspend e stop
-
+Aula 73 - Resume, suspend e stop    
 Aula 74 - Deadlocks
 
 Exercício - Crie um semáforo (sinal de trânsito) usando Threads. O semáforo deve ficar verde por x segundos, depois brevemente amarelo e seguido de y segundos na cor vermelha.
@@ -113,52 +97,51 @@ Aula 78 - Comparação de Strings utilizando: equalsIgnoreCase, regionMatches, s
 
 * compareTo é muito usado quando trabalhamos com coleções de objetos e queremos fazer uma ordenação.
 
-Aula 79 - Buscas utilizando os métodos: indexOf, lastIndexOf, contains.
-
-
-Aula 80 - Modificando uma String utilizando substring, concat, replace, trim. 
+Aula 79 - Buscas utilizando os métodos: indexOf, lastIndexOf, contains.   
+Aula 80 - Modificando uma String utilizando substring, concat, replace, trim.    
 
 *****Métodos mais utilizados ao se trabalhar com String!
 
-Aula 81 - Modificando letras maiúsculas/minúsculas utilizando: toLowerCase, toUpperCase.
-
-Aula82 - Juntando e separando String utilizando: join e split.
-
-Aula 83 - Concatenação com StringBuilder e StringBuffer.
-
+Aula 81 - Modificando letras maiúsculas/minúsculas utilizando: toLowerCase, toUpperCase.   
+Aula 82 - Juntando e separando String utilizando: join e split.   
+Aula 83 - Concatenação com StringBuilder e StringBuffer.    
 Aula 84 - Classe String Tokenizer
 
-###Classes Utilitárias
+### Classes Utilitárias
 
-Aula 85 - 
+Aula 85 - Classe Math: Trabalhando com métodos matemáticos   
+Aula 86 - Classe Date: Trabalhando com datas    
+Aula 87 - Classe Calendar: Trabalhando com datas     
 
-Aula 86 - 
+Lembrando Prinf - Saída formatada:
 
-Aula 87 - 
+%d indicar que é um número
 
-Aula 88 - 
+%02d indicar que é um número, ter duas casas decimais e preencher com 0 se necessário
 
-Aula 89 - 
+%n quebra de linha
 
-Aula 90 - 
+dia/mês/ano 16/02/2022 %02d/%02d/%d
 
-Aula 91 - 
+hora:minuto:segundo 20:11:23 %02d:%02d:%02d
 
-Aula 92 - 
+Aula 88 - Classe GregorianCalendar   
+Aula 89 - Formatando datas com SimpleDateFormat
 
-Aula 93 - 
+[Documentação SimpleDateFormat](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html)
 
-Aula 94 - 
+Aula 90 - Locale (Internacionalização)    
+Aula 91 - Formatando datas com DateFormat e Locale
+* SimpleDateFormat: é mais útil quando quizermos especificar o formato da data.
+* DateFormat: é mais útil quando trabalhamos com Locale na nossa aplicação.    
 
-Aula 95 - 
-
-Aula 96 - 
-
-Aula 97 - 
-
-Aula 98 -
-
-Aula 99 - 
-
+Aula 92 - TimeZone (Fuso Horário).     
+Aula 93 - Data no Java 8+: LocalDate, LocalDateTime, LocalTime, ZoneId, ZoneDateTime.     
+Aula 94 -     
+Aula 95 -     
+Aula 96 -    
+Aula 97 -     
+Aula 98 -    
+Aula 99 -    
 Aula 100 - 
 
