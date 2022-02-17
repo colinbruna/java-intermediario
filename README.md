@@ -137,11 +137,13 @@ Aula 91 - Formatando datas com DateFormat e Locale
 
 Aula 92 - TimeZone (Fuso Horário).     
 Aula 93 - Data no Java 8+: LocalDate, LocalDateTime, LocalTime, ZoneId, ZoneDateTime.     
-Aula 94 -     
-Aula 95 -     
-Aula 96 -    
-Aula 97 -     
-Aula 98 -    
-Aula 99 -    
-Aula 100 - 
+Aula 94 - Diferença entre datas     
+Aula 95 - ResourceBundle      
+Aula 96 - Formatando Números: NumberFormat   
+Aula 97 - Formatando Números: DecimalFormat
+* Usar a classe DecimalFormat quando precisamos de mais precisão nas casas decimais ou precisamos ter mais controle sobre como o número será formatado.
+
+Aula 98 - Trabalhando com BigDecimal e BigInteger    
+Aula 99 - Números Aleatórios (Classe Random)    
+Aula 100 - Instalando jars (Outras bibliotecas Java) no Projeto
 
